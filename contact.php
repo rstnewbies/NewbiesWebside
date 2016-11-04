@@ -13,4 +13,5 @@ $headers = 'From: '. $email . "\r\n" .
 
 mail($to,$subject,$message,$headers);
 
+action =index.php
 ?>

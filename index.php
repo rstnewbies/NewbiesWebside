@@ -136,10 +136,10 @@
                         <div class="mbr-header mbr-header--center mbr-header--std-padding">
                             <h2 class="mbr-header__text">Formularz kontaktowy</h2>
                         </div>
-                        <div data-form-alert="true">
-                            <div class="hide" data-form-alert-success="true">Dziękujemy za kontakt.</div>
+                        <div>
+                            <div class="hide" id="data-form-alert-success">Dziękujemy za kontakt.</div>
                         </div>
-                        <form action="/contact.php" method="post">
+                        <form  method="post">
                           
 						   <div class="form-group">
                                 <input type="text" class="form-control" name="name" required="" placeholder="Imię i nazwisko" data-form-field="Name">
@@ -156,7 +156,7 @@
                                 <textarea class="form-control" name="message" rows="7" placeholder="Wiadomość" data-form-field="Message"></textarea>
 							</div>
                             
-							<div class="mbr-buttons mbr-buttons--right"><button type="submit" class="mbr-buttons__btn btn btn-lg btn-danger">Jestem gotów</button></div>
+							<div class="mbr-buttons mbr-buttons--right"><button type="submit" name="SubmitButton" class="mbr-buttons__btn btn btn-lg btn-danger">Jestem gotów</button></div>
                         </form>
                     </div>
                 </div>
@@ -164,6 +164,26 @@
         </div>
     </div>
 </section>
+
+<?php
+if(isset($_POST['SubmitButton'])){
+	
+	$data = $_POST;
+	$name = $data['name'];
+	$email = $data['email'];
+	$message = $data['message']."\n".$name;
+
+	$to      = 'newbies@rst.com.pl';
+	$subject = 'Contact from '.$email;
+	$headers = 'From: '. $email . "\r\n" .
+           'Reply-To: '. $email . "\r\n" .
+           'X-Mailer: PHP/' . phpversion();
+
+
+	mail($to,$subject,$message,$headers);
+	echo("<script>document.getElementById('data-form-alert-success').className = 'mbr-header__text done';</script>");
+}    
+?>
 
 <footer class="mbr-section mbr-section--relative mbr-section--fixed-size" id="footer1-0" style="background-color: rgb(68, 68, 68);">
     

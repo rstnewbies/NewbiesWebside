@@ -1720,3 +1720,8 @@ html {
 .not-white{
 	color: #444444;
 }
+.done{
+	text-align: center;
+	margin-bottom: 50;
+	color:#81c14b;
+}
