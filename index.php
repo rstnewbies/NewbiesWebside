@@ -44,12 +44,12 @@
     </div>
 </section>
 
-<section class="engine"><a rel="external" href="https://mobirise.com">web site creator</a></section><section class="mbr-section" id="header3-0">
+<section class="engine"></section><section class="mbr-section" id="header3-0">
     <div class="mbr-section__container container mbr-section__container--isolated">
         <div class="mbr-header mbr-header--wysiwyg row">
             <div class="col-sm-8 col-sm-offset-2">
                 <h3 class="mbr-header__text ">Programowanie jest naszą pasją</h3>
-                <p class="mbr-header__subtext">W świat programowania oraz tworzenia produktu nie wprowadzi cię żadna szkoła techniczna ani studia, a firmy oczekują od kandydatów nie tylko wiedzy na temat tego co robią, ale także zasada działania w grupie. <br>Dlatego my, połączyliśmy się i stworzyliśmy grupę, która przygotuje do wejścia na rynek pracy, a także dostarcza wiedzy i satysfakcji!&nbsp;<br></p>
+                <p class="mbr-header__subtext">W świat programowania oraz tworzenia produktu nie wprowadzi cię żadna szkoła techniczna ani studia, a firmy oczekują od kandydatów nie tylko wiedzy na temat tego, co robią, ale także zasada działania w grupie. <br>Dlatego my, połączyliśmy się i stworzyliśmy grupę, która przygotuje do wejścia na rynek pracy, a także dostarcza wiedzy i satysfakcji!&nbsp;<br></p>
             </div>
         </div>
     </div>
@@ -62,12 +62,12 @@
             <div class="mbr-box mbr-box--stretched"><div class="mbr-box__magnet mbr-box__magnet--center-left">
                 <div class="row"><div class=" col-sm-6">
                     <div class="mbr-hero animated fadeInUp">
-                        <h1 class="mbr-hero__text ">Co osiągneliśmy?</h1>
-                        <p class="mbr-hero__subtext ">Z dumą przedstawiamy nasza pierwsza aplikacje mobilną, całkowicie stworzona od podstaw – Fiszki&nbsp;<br></p>
+                        <h1 class="mbr-hero__text ">Co osiągnęliśmy?</h1>
+                        <p class="mbr-hero__subtext ">Z dumą przedstawiamy nasza pierwsza aplikację mobilną, całkowicie stworzona od podstaw – Fiszki&nbsp;<br></p>
                     </div>
                     <div class="mbr-buttons btn-inverse mbr-buttons--left">
 					<a class="mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay" onclick=" window.open('https://play.google.com/store/apps/details?id=eu.qm.fiszki','_blank')">Pobierz z Google Play</a> 
-					<a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" onclick=" window.open('https://github.com/rstnewbies/Fiszki','_blank')">Obczaj kod na githunie</a></div>
+					<a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" onclick=" window.open('https://github.com/rstnewbies/Fiszki','_blank')">Obczaj kod na githubie</a></div>
                 </div></div>
             </div></div>
         </div>
@@ -84,7 +84,7 @@
         <div class="row">
             <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2">
 			<h2>Jednak nie jest to jedyna rzecz, która się zajmujemy.&nbsp;</h2>
-			<p>W naszych piwnicach tworzymy również gre miejską Kompas, która w niedługim czasie zostanie zaprezentowana szerszemu gronu odbiorców.&nbsp;</p></div>
+			<p>W naszych piwnicach tworzymy również grę miejską Kompas, która w niedługim czasie zostanie zaprezentowana szerszemu gronu odbiorców.&nbsp;</p></div>
         </div>
     </div>
 </section>
@@ -101,7 +101,7 @@
     <div class="mbr-section__container container mbr-section__container--last" style="padding-bottom: 62px;">
         <div class="row">
             <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2">
-			<h3><font color="white">Na tak trudnym środowisku nie jesteśmy sami. Wiedzą i doświadczeniem wpiera nas firma RST Software Masters, która od 18 lat działa i prosperuje na światowym rynku&nbsp;</font></h3></div>
+			<h3><font color="white">Na tak trudnym środowisku nie jesteśmy sami. Wiedzą i doświadczeniem wpiera nas firma RST Software Masters, która od 18 lat działa i prosperuje na światowym rynku.&nbsp;</font></h3></div>
         </div>
     </div>
     
@@ -147,12 +147,9 @@
                             
 							<div class="form-group">
                                 <input type="email" class="form-control" name="email" required="" placeholder="Email" data-form-field="Phone">
-                                <p><font color="grey">Abyśmy mogli przekazać informacje na temat spotkania</font></p>
                             </div>
                             
 							<div class="form-group">
-                                <p>Powiedz coś o sobie. Pochwal się swoimi zainteresowaniami, osiągnięciami. Napisałeś kalkulator? Powiedz nam o tym!
-                                Im więcej wiemy o Tobie, tym lepiej pomożemy dostosować Ci się w grupie.</p>
                                 <textarea class="form-control" name="message" rows="7" placeholder="Wiadomość" data-form-field="Message"></textarea>
 							</div>
                             
@@ -190,7 +187,7 @@ if(isset($_POST['SubmitButton'])){
     <div class="mbr-section__container container">
         <div class="mbr-footer mbr-footer--wysiwyg row" style="padding-top: 36.900000000000006px; padding-bottom: 36.900000000000006px;">
             <div class="col-sm-12">
-                <p class="mbr-footer__copyright">Copyright (c) 2016 Newbies (RST Software Masrers)</p>
+                <p class="mbr-footer__copyright">Copyright (c) 2016 Newbies (RST Software Masters)</p>
             </div>
         </div>
     </div>
