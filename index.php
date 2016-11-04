@@ -132,15 +132,14 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2" data-form-type="formoid">
+                    <div class="col-sm-8 col-sm-offset-2">
                         <div class="mbr-header mbr-header--center mbr-header--std-padding">
                             <h2 class="mbr-header__text">Formularz kontaktowy</h2>
                         </div>
                         <div data-form-alert="true">
                             <div class="hide" data-form-alert-success="true">Dziękujemy za kontakt.</div>
                         </div>
-                        <form action="/contact.php" method="post" data-form-title="CONTACT FORM">
-                          	<input type="hidden" value="STpB0dhtMQcOz4UYc6XPk7UwUntkNZzVh13j40eLkR7lyZTVJztlcO3G1nI5JaGJc0YVCHDtOMJvR/PJq3JN0gRwoFX7fAtoEOhgbG/oA4FUOO6PdSLkBRv8He/tdapq" data-form-email="false">
+                        <form action="/contact.php" method="post">
                           
 						   <div class="form-group">
                                 <input type="text" class="form-control" name="name" required="" placeholder="Imię i nazwisko" data-form-field="Name">

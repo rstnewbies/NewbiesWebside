@@ -2,10 +2,15 @@
 $data = $_POST;
 $name = $data['name'];
 $email = $data['email'];
-$message = $data['message'];
+$message = $data['message']."\n".$name;
 
-$text = $email."\n".$name."\n".$message;
+$to      = 'newbies@rst.com.pl';
+$subject = 'Contact from '.$email;
+$headers = 'From: '. $email . "\r\n" .
+           'Reply-To: '. $email . "\r\n" .
+           'X-Mailer: PHP/' . phpversion();
 
-mail('newbies@rst.com.pl','contact',$text,null);
+
+mail($to,$subject,$message,$headers);
 
 ?>
