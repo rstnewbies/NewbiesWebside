@@ -63,7 +63,7 @@
                 <div class="row"><div class=" col-sm-6">
                     <div class="mbr-hero animated fadeInUp">
                         <h1 class="mbr-hero__text ">Co osiągnęliśmy?</h1>
-                        <p class="mbr-hero__subtext ">Z dumą przedstawiamy nasza pierwsza aplikację mobilną, całkowicie stworzona od podstaw – Fiszki&nbsp;<br></p>
+                        <p class="mbr-hero__subtext ">Z dumą przedstawiamy naszą pierwsza aplikację mobilną, całkowicie stworzoną od podstaw – Fiszki&nbsp;<br></p>
                     </div>
                     <div class="mbr-buttons btn-inverse mbr-buttons--left">
 					<a class="mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay" onclick=" window.open('https://play.google.com/store/apps/details?id=eu.qm.fiszki','_blank')">Pobierz z Google Play</a> 
@@ -83,7 +83,7 @@
     <div class="mbr-section__container container mbr-section__container--isolated">
         <div class="row">
             <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2">
-			<h2>Jednak nie jest to jedyna rzecz, która się zajmujemy.&nbsp;</h2>
+			<h2>Jednak nie jest to jedyna rzecz, którą się zajmujemy.&nbsp;</h2>
 			<p>W naszych piwnicach tworzymy również grę miejską Kompas, która w niedługim czasie zostanie zaprezentowana szerszemu gronu odbiorców.&nbsp;</p></div>
         </div>
     </div>
