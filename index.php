@@ -24,14 +24,13 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Modal title</h4>
+        <h4 class="modal-title">Udało się!</h4>
       </div>
-      <div class="modal-body">
-        <p>One fine body&hellip;</p>
+      <div class="modal-body" id="modal-message">
+      <span id="message-wrapper"></span>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
@@ -158,13 +157,10 @@
                         <div class="mbr-header mbr-header--center mbr-header--std-padding">
                             <h2 class="mbr-header__text">Formularz kontaktowy</h2>
                         </div>
-                        <div>
-                            <div class="hide" id="data-form-alert-success">Dziękujemy za kontakt.</div>
-                        </div>
                         <form  method="post">
                           
 						   <div class="form-group">
-                                <input type="text" class="form-control" name="name" required="" placeholder="Imię i nazwisko" data-form-field="Name">
+                                <input type="text" class="form-control" name="name" required="" placeholder="Imię" data-form-field="Name">
                             </div>
                             
 							<div class="form-group">
@@ -204,6 +200,7 @@ if(isset($_POST['SubmitButton'])){
 	<script>
 	window.onload=function(){
 	$("#modal-id").modal("show");
+	$("#message-wrapper").html("Dziękujemy za kontakt."); //dodać imie i nazwisko do message
 	}
 	</script>
 	<?php
