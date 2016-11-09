@@ -176,7 +176,6 @@
 						'Reply-To: '. $email . "\r\n" .
 						'X-Mailer: PHP/' . phpversion();
 			mail($to, $subject, $message, $headers);
-		}
 	?>
 		<script>
 		window.onload=function(){
