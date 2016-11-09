@@ -18,10 +18,30 @@
   
 </head>
 <body>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="modal-id">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <p>One fine body&hellip;</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 <section class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--full-height mbr-section--bg-adapted" id="header4-0" data-bg-video="https://www.youtube.com/embed/IGFKhiGSQBg?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0">
     <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-center">
-        
-        <div class="mbr-box__container mbr-section__container container">
+       
+		
+		<div class="mbr-box__container mbr-section__container container">
             <div class="mbr-box mbr-box--stretched"><div class="mbr-box__magnet mbr-box__magnet--center-center">
                 <div class="row"><div class=" col-sm-8 col-sm-offset-2">
                     <div class="mbr-hero animated fadeInUp">
@@ -32,7 +52,7 @@
 						<i class="mbr-hero__subtext">Przygoda z kodem zaczyna się tutaj.</i>
                     </div>
 					</div>
-                    <div class="mbr-buttons btn-inverse mbr-buttons--center"> <a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" href="#header3-0">Dowiedz się więcej</a></div>
+                    <div class="mbr-buttons btn-inverse mbr-buttons--center"> <a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay"  data-toggle="modal" data-target="#modal-id">Dowiedz się więcej</a></div>
                 </div></div>
             </div></div>
         </div>
@@ -42,6 +62,8 @@
             </div>
         </div>
     </div>
+
+	
 </section>
 
 <section class="engine"></section><section class="mbr-section" id="header3-0">
@@ -178,7 +200,13 @@ if(isset($_POST['SubmitButton'])){
 
 
 	mail($to,$subject,$message,$headers);
-	echo("<script>document.getElementById('data-form-alert-success').className = 'mbr-header__text done';</script>");
+	?>
+	<script>
+	window.onload=function(){
+	$("#modal-id").modal("show");
+	}
+	</script>
+	<?php
 }    
 ?>
 

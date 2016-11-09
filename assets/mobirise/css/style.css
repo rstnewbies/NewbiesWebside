@@ -1725,3 +1725,6 @@ html {
 	margin-bottom: 50;
 	color:#81c14b;
 }
+.modal-center{
+	position: fixed;
+}
