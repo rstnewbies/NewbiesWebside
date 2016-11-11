@@ -46,7 +46,7 @@
 						<i class="mbr-hero__subtext">Przygoda z kodem zaczyna się tutaj.</i>
 					</div>
 					</div>
-					<div class="mbr-buttons btn-inverse mbr-buttons--center"> <a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" data-toggle="modal" data-target="#modal-id">Dowiedz się więcej</a></div>
+					<div class="mbr-buttons btn-inverse mbr-buttons--center"> <a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" href="#header3-0">Dowiedz się więcej</a></div>
 				</div></div>
 			</div></div>
 		</div>
