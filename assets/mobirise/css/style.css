@@ -1728,3 +1728,7 @@ html {
 .modal-center{
 	position: fixed;
 }
+.btn-gp{
+	background-color:#c03221;
+	color:white;
+}

@@ -33,7 +33,7 @@
 	</div>
 </div>
 
-<section class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--full-height mbr-section--bg-adapted" id="header4-0" data-bg-video="https://www.youtube.com/embed/IGFKhiGSQBg?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0">
+<section class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--full-height mbr-section--bg-adapted" id="header4-0" data-bg-video="https://www.youtube.com/watch?v=zlptfGzEfvE">
 	<div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-center">
 		<div class="mbr-box__container mbr-section__container container">
 			<div class="mbr-box mbr-box--stretched"><div class="mbr-box__magnet mbr-box__magnet--center-center">
@@ -78,7 +78,7 @@
 						<p class="mbr-hero__subtext ">Z dumą przedstawiamy naszą pierwsza aplikację mobilną, całkowicie stworzoną od podstaw – Fiszki<br></p>
 					</div>
 					<div class="mbr-buttons btn-inverse mbr-buttons--left">
-					<a class="mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay" onclick=" window.open('https://play.google.com/store/apps/details?id=eu.qm.fiszki','_blank')">Pobierz z Google Play</a> 
+					<a class="mbr-buttons__btn btn btn-lg btn-gp animated fadeInUp delay" onclick=" window.open('https://play.google.com/store/apps/details?id=eu.qm.fiszki','_blank')">Pobierz z Google Play</a> 
 					<a class="mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay" onclick=" window.open('https://github.com/rstnewbies/Fiszki','_blank')">Obczaj kod na githubie</a></div>
 				</div></div>
 			</div></div>
