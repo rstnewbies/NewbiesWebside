@@ -63,7 +63,7 @@
 		<div class="mbr-header mbr-header--wysiwyg row">
 			<div class="col-sm-8 col-sm-offset-2">
 				<h3 class="mbr-header__text ">Programowanie jest naszą pasją</h3>
-				<p class="mbr-header__subtext">W świat programowania oraz tworzenia produktu nie wprowadzi cię żadna szkoła techniczna ani studia, a firmy oczekują od kandydatów nie tylko wiedzy na temat tego, co robią, ale także zasada działania w grupie. <br>Dlatego my, połączyliśmy się i stworzyliśmy grupę, która przygotuje do wejścia na rynek pracy, a także dostarcza wiedzy i satysfakcji!<br></p>
+				<p class="mbr-header__subtext">W świat programowania oraz tworzenia produktu nie wprowadzi cię żadna szkoła techniczna ani studia, a firmy oczekują od kandydatów nie tylko wiedzy na temat tego, co robią, ale także zasady działania w grupie. <br>Dlatego my, połączyliśmy się i stworzyliśmy grupę, która przygotuje do wejścia na rynek pracy, a także dostarcza wiedzy i satysfakcji!<br></p>
 			</div>
 		</div>
 	</div>
@@ -112,7 +112,7 @@
 	<div class="mbr-section__container container mbr-section__container--last" style="padding-bottom: 62px;">
 		<div class="row">
 			<div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2">
-			<h3><font color="white">Na tak trudnym środowisku nie jesteśmy sami. Wiedzą i doświadczeniem wpiera nas firma RST Software Masters, która od 18 lat działa i prosperuje na światowym rynku.</font></h3></div>
+			<h3><font color="white">Na tak trudnym środowisku nie jesteśmy sami. Wiedzą i doświadczeniem wpiera nas firma RST Software Masters, która od 18 lat funkcjonuje i prosperuje na światowym rynku.</font></h3></div>
 		</div>
 	</div>
 	
