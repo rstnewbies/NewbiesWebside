@@ -1,0 +1,230 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "3.5.1",
+    "versionPublish": "3.5.1",
+    "name": "NewSite-08-24_2151",
+    "theme": {
+      "name": "default",
+      "title": "Mobirise",
+      "styling": {}
+    },
+    "publishType": "local",
+    "publishPath": "file:///D:/Programowanie/Newbies/Fiszki/strona/projekt%20kreator"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Newbies Powered by RST Software Masters",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_anchor": "header4-0",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "images/bg.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/IGFKhiGSQBg?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "contentAlign": "center",
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "title": "Newbies",
+          "text": "Przygoda z kodem właśnie się zaczyna",
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"index.html#header4-0\" data-toolbar=\"-mbrBtnMove\">Dowiedz się więcej</a>"
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-0",
+          "title": "Programowanie jest naszą pasją",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "W świat programowania oraz tworzenia produktu nie nauczy cię żadna szkoła techniczna ani studia,  a firmy oczekują od kandydatów nie tylko wiedzy na temat tego co robią, ale także zasada działania w grupie. <br>Dlatego my, połączyliśmy się i stworzyliśmy grupę, która przygotuje do wejścia na rynek pracy, a także dostarcza wiedzy i satysfakcji!&nbsp;<br>"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header1",
+          "_styles": {
+            "H1": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header1-0",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/note-realistic-2000x1334-9.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "left",
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "title": "Co osiągneliśmy?",
+          "text": "Z dumą przedstawiamy nasza pierwsza aplikacje mobilną, całkowicie stworzona od podstaw – Fiszki&nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Pobierz z Google Play</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Obczaj kod na githunie</a>"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-0",
+          "text": "<p>Jednak nie jest to jedyna rzecz, która się zajmujemy.&nbsp;</p><p>W naszych piwnicach tworzymy również grę (sic!) oraz czat webowy, ale te dwa projekty są zbyt tajne, abyśmy mogli na tym etapie wyjawić szczegóły.&nbsp;</p>"
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_name": "content5",
+          "_anchor": "content5-0",
+          "_params": {
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": "2",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/rst-2000x743-85.png",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#28324e",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "Pomoc profesjonalistów",
+          "meta": "",
+          "text": "<p>&nbsp;Na tak trudnym środowisku nie jesteśmy sami. Wiedzą i doświadczeniem wpiera nas firma RST Software Masters, która od 15 lat działa i prosperuje na światowym rynku&nbsp;</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-1",
+          "title": "Dołącz do zespołu!",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": ""
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-1",
+          "text": "<p>Szukamy osób ambitnych,  chcących rozwinąć się w programowaniu (nie ograniczamy się do konkretnego języka), testowaniu (tak,  tu też jest czego się uczyć), grafice oraz zarządzaniu.&nbsp;</p><p>Uważasz, że się nadajesz?&nbsp;<br></p><p>Aplikuj już teraz! To nie boli (i jest darmowe)</p><p><br></p>"
+        },
+        {
+          "_name": "form1",
+          "_anchor": "form1-0",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "CONTACT FORM",
+          "form": {
+            "action": "poop28@interia.pl",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Imię*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">CONTACT US</a>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-0",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Newbies (RST Software Masrers) - &nbsp;Regulamin formularza&nbsp;"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {},
+      "components": []
+    }
+  }
+}
