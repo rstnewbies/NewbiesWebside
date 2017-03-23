@@ -47,7 +47,7 @@
                         <div class=" col-sm-8 col-sm-offset-2">
                             <div class="mbr-hero animated fadeInUp">
                                 <div class="mbr-hero__text">
-                                    <b>Newbies</b>
+                                    Newbies
                                 </div>
                                 <div class="mbr-hero__subtext">
                                     <i class="mbr-hero__subtext">Przygoda z kodem zaczyna się tutaj.</i>
@@ -59,9 +59,9 @@
                             </div>
                             <br>
                             <div>
-                                <a target="_blank" title="find us on Facebook"
+                                <a target="_blank" title="Znajdź nas na Facebook!"
                                    href="http://www.facebook.com/RSTNewbies">
-                                    <img alt="follow me on facebook"
+                                    <img alt="Znajdź nas na Facebook!"
                                          src="//login.create.net/images/icons/user/facebook_40x40.png" border=0
                                          class="animated fadeInUp delay">
                                 </a>
