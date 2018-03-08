@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/animate.css/animate.min.css">
     <link rel="stylesheet" href="assets/mobirise/css/style.css">
     <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 
@@ -205,6 +206,8 @@
                             <div class="form-group">
                                 <textarea class="form-control" name="message" rows="7" placeholder="Wiadomość"
                                           data-form-field="Message"></textarea>
+                            </div>
+                            <div class="g-recaptcha" data-sitekey="6Ldte0sUAAAAAAbUA6h8WB4IJaWfkoWLNEsKU8bO">
                             </div>
                             <div class="mbr-buttons mbr-buttons--right">
                                 <button type="submit" name="SubmitButton"
